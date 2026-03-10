@@ -44,10 +44,10 @@ A continuación se detallan las pruebas realizadas con **Thunder Client** para l
 
 #### 6. Actualizar Pedido (PATCH)
 <img width="1376" height="579" alt="image" src="https://github.com/user-attachments/assets/e033716f-8258-425b-abc7-7083c38cc23a" />
-*Modificación del pedido ID: `6992fa0dac08de91ed96f3b5`.*
+*Modificación del pedido ID: `69af7799f145bfe457f269ca`.*
 
 #### 7. Eliminar Pedido (DELETE)
 <img width="1339" height="579" alt="image" src="https://github.com/user-attachments/assets/ccef3f08-32ae-4604-85d7-6aa0775d6db1" />
-*Borrado del registro ID: `6992fc5ef005e75f2dd8e738`.*
+*Borrado del registro ID: `69af7799f145bfe457f269ca`.*
 
 ---
