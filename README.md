@@ -17,6 +17,8 @@ A continuación se detallan las pruebas realizadas con **Thunder Client** para l
 | `POST` | `/` | Crear un nuevo pedido |
 | `PATCH` | `/:id` | Actualizar parcialmente un pedido |
 | `DELETE` | `/:id` | Eliminar un pedido del sistema |
+| `POST` | `/usuario/singup` | Crear un nuevo usuario |
+| `POST` | `/usuario/login` | Inicio de sesión |
 
 ---
 
@@ -51,3 +53,11 @@ A continuación se detallan las pruebas realizadas con **Thunder Client** para l
 *Borrado del registro ID: `69af7799f145bfe457f269ca`.*
 
 ---
+###  Evidencia de Pruebas JWT
+#### 1. Crear Usuario
+<img width="1477" height="837" alt="image" src="https://github.com/user-attachments/assets/8863c484-2017-40b5-944a-e075898a94d5" />
+
+#### 1. Ruta Login
+<img width="1472" height="791" alt="image" src="https://github.com/user-attachments/assets/28531be1-ab58-4874-860b-2f53350de537" />
+
+
