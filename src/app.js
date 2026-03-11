@@ -2,7 +2,7 @@
 import express from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
-
+import { usuarioRoutes } from './rutas/usuarios.js'
 import { pedidosRoutes } from './rutas/pedidos.js'
 
 // Crear la aplicación Express
@@ -13,6 +13,7 @@ app.use(bodyParser.json())
 
 // Configurar rutas
 pedidosRoutes(app)
+usuarioRoutes(app)
 
 // Ruta de prueba
 app.get('/', (req, res) => {

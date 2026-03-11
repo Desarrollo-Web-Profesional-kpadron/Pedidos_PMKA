@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Servicio de Pedidos",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
@@ -11,7 +11,7 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "Karen Anahi",
+  "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {

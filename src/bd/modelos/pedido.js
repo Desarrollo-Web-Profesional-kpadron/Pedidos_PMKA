@@ -11,8 +11,8 @@ import mongoose, { Schema } from "mongoose";
 * @property {string} comentario - Comentarios adicionales sobre el pedido
 */
 const pedidoSchema = new Schema(
-{
-nombre: { type: String, required: true },
+{   
+cliente: { type: Schema.Types.ObjectId, ref: 'usuario'},
 telefono: { type: String, required: true, length: 10 },
 fecha_solicitud: { type: Date, required: true },
 fecha_envio: { type: Date, required: true },
